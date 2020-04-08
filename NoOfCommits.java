@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 
 public class NoOfCommits {
 	public static void main(String args[]) {
-		String username = "Yashaswini-yashas";
-		String password = "Pe1@Ac2H";
-		String url = "https://api.github.com/repos/Yashaswini-yashas/ValueExtractionFromJIRA/stats/contributors";
+		String username = "USERNAME";
+		String password = "PASSWORD";
+		String url = "https://api.github.com/repos/Yashaswini-yashas/{REPO_NAME}/stats/contributors";
 		
 		String[] command = {"curl", "-u", username+":"+password , url};
 		 ProcessBuilder process = new ProcessBuilder(command); 
