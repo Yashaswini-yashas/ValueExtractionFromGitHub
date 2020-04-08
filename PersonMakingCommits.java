@@ -8,9 +8,9 @@ import io.restassured.path.json.JsonPath;
 
 public class PersonMakingCommits {
 	public static void main(String args[]) {
-		String username = "Yashaswini-yashas";
-		String password = "Pe1@Ac2H";
-		String url = "https://api.github.com/repos/Yashaswini-yashas/ValueExtractionFromJIRA/commits";
+		String username = "USERNAME";
+		String password = "PASSWORD";
+		String url = "https://api.github.com/repos/Yashaswini-yashas/{REPO_NAME}/commits";
 		
 		String[] command = {"curl", "-u", username+":"+password , url};
 		 ProcessBuilder process = new ProcessBuilder(command); 
