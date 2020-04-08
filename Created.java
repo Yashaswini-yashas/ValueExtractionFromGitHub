@@ -12,7 +12,7 @@ public class Created {
 public static void main(String args[]) {
 	String username = "USERNAME";
 	String password = "PASSWORD";
-	String url = "https://api.github.com/repos/Yashaswini-yashas/ValueExtractionFromJIRA";
+	String url = "https://api.github.com/repos/Yashaswini-yashas/{repo_name}";
 	
 	String[] command = {"curl", "-u", username+":"+password , url};
 	 ProcessBuilder process = new ProcessBuilder(command); 
