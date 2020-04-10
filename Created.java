@@ -10,9 +10,9 @@ import io.restassured.path.json.JsonPath;
 public class Created {
 	
 public static void main(String args[]) {
-	String username = "Yashaswini-yashas";
-	String password = "Pe1@Ac2H";
-	String url = "https://api.github.com/repos/Yashaswini-yashas/petclinic";
+	String username = "USERNAME";
+	String password = "PASSWORD";
+	String url = "https://api.github.com/repos/Yashaswini-yashas/{repo_name}";
 	
 	String[] command = {"curl", "-u", username+":"+password , url};
 	 ProcessBuilder process = new ProcessBuilder(command); 
