@@ -4,8 +4,8 @@ import java.io.InputStreamReader;
 
 public class MergedPullRequests {
 	public static void main(String args[]) {
-		String username = "Yashaswini-yashas";
-		String password = "Pe1@Ac2H";
+		String username = "USERNAME";
+		String password = "PASSWORD";
 		String url = "https://api.github.com/repos/Yashaswini-yashas/petclinic/pulls/2/merge";
 		
 		String[] command = {"curl", "-I", "-u", username+":"+password , url};
